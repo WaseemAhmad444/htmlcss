@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+  <!---- <link rel="stylesheet" type="text/css" href="sample.css">--->
+  <style type="text/css">
+    .redfont{
+        color: blue;
+    }
+
+    .largefont{
+        font-size: 25px;
+    }
+
+    #oneid{
+
+        color: orange;
+        font-size: 25px;
+    }
+
+    #secid{
+
+color: orange;
+font-size: 25px;
+}
+
+  #first{
+      background-color: yellow;
+  }
+
+  #second {
+    background-color: tomato;
+    width: 100px;
+    float: left;
+
+  }
+
+  #third {
+    background-color:yellowgreen;
+    width: 100px;
+    float: left;
+
+  }
+
+  #fourth {
+    background-color:orange;
+    width: 100px;
+    position:absolute;
+
+  }
+
+  .highlight {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  position:left;
+  background-color: green;
+  opacity: .6;
+}
+
+#mainPoint {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: red;
+  position: left;
+  opacity: .7;
+}
+
+    
+</style>
+
+</head>
+<body>
+    <h1> heading 1</h1>
+    <p class="largefont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eaque veniam impedit id laboriosam et? Blanditiis, pariatur. Aspernatur 
+        tenetur doloribus distinctio, consequuntur eos, modi nam corrupti quisquam error dolorem eius.</p>
+
+        <p class="redfont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident eaque veniam impedit id laboriosam et? Blanditiis, pariatur. Aspernatur 
+            tenetur doloribus distinctio, consequuntur eos, modi nam corrupti quisquam error dolorem eius.</p>
+         <dev id="oneid"> this is the id</dev>
+
+         <dev id="secid"> this is the id</dev><br>
+
+         <dev id="oneid" class="largefont"> this is the id</dev>
+
+        <dev>
+            <p >Lorem ipsum dolor, <span id="first">sit amet consectetur adipisicing elit.</span> Architecto possimus voluptatibus culpa illum ullam blanditiis labore maiores corporis praesentium? 
+                Labore tenetur odio doloribus atque nostrum omnis, alias iusto assumenda voluptas!</p>
+            </dev>
+
+            <dev id="second">
+                <p > illsa </p>
+                </dev>
+  
+                <dev id="third">
+                    <p > fatima </p>
+                    </dev>
+
+                    <dev id="fourth">
+                        <p > zohaib </p>
+                        </dev>
+
+                        <head>
+                          <meta charset="utf-8">
+                          <title >Child Selector</title>
+                          <style>
+                          
+                          /* any article element which is a direct child of a section element,i.e., any article element whose immediate parent is a section element. */
+                          section > article {
+                            color: green;
+                            font-size: 24px;
+                          }
+                          
+                          /* any h2 element which is a direct child of a section element,i.e., any h2 element whose immediate parent is a section element. */
+                          section > h2 {
+                            color: green;
+                          }
+                          
+                          </style>
+                          </head>
+                          <body>
+                          <h1 style="float:right;">Child Selector</h1>
+                          <section>
+                            <h2>Subheading 1</h2>
+                            <div>
+                              <article>ARTICLE which inside DIV, which is inside SECTION</article>
+                            </div>
+                          </section>
+                          <section>
+                            <article>ARTICLE as a direct child of the SECTION element.</article>
+                          </section>
+                          <h2>Subheading 2</h2>
+
+        </body>
+</html>
