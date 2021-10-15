@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("bckimg.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    color: white;
+    
+}
+.login-form{
+    background-color:rgb(0, 0, 0,.5);
+    width: 380px;
+    height: 350px;
+    margin: 0;
+    padding: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-sizing: border-box;
+    transform:translate(-50%, -50%);
+
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+input{
+    width: 100%;
+    margin-bottom:  20px; 
+}
+
+.login-form input[type="text"],input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+}
+
+.login-form input[type="button"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: yellow;
+    color:black;
+    border-radius: 20px;
+
+}
+.login-form input[type="button"]:hover
+{
+    background-color:blue;
+    color:white;
+    cursor: pointer;
+
+}
+.login-form a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.login-form img
+{
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    box-sizing: border-box;
+    transform:translate(-50%, -50%);
+}
